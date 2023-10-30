@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+.login-container img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    display: block;
+    background-color: #4285F4;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#googleLoginBtn {
+    background-color: #DB4437;
+}
+
+#githubLoginBtn {
+    background-color: #333;
+}
+
+#facebookLoginBtn {
+    background-color: #1877F2;
+}

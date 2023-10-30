@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: screen;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo { 
+    width: 50%;
+}
+
+.logo img{
+
+    height: auto; 
+    display: block;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+
+/* button in general */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #333;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #367B99;
+}
+
+#postAJob {
+    background-color: #2F7BAD;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* job postings  --TODO */
+.job-postings {
+    margin-top: 30px;
+}
+
+.job {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* search form */
+
+.search-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#jobSearchForm {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#keyword, #location {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#keyword {
+    flex: 2;
+}
+
+#location {
+    flex: 1;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gojobs.sh</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- nav -->
+        <nav>
+            <div class="logo" style="text-align: center;">
+                <img src="/static/images/gojobs.png" alt="gojobs.sh logo" style="max-width: 100%; width: 50%; height: auto; display: block; margin: 0 auto; border-radius: 5px;">
+            </div>
+            <div style="text-align: center; padding: 20px;">
+                <p style="font-size: 24px; font-weight: bold; color: #333; margin: 0; font-family: 'Arial', sans-serif; letter-spacing: 1px;">gojobs.sh</p>
+            </div>
+            <div class="nav-buttons">
+                <a href="/login">
+                    <button id="loginBtn">Login</button>
+                </a>
+                <a href="/postajob">
+                    <button id="postAJob">Post a Job</button>
+                </a>
+            </div>
+        </nav>
+        <!-- Search form-->
+        <section class="search-section">
+            <form id="jobSearchForm">
+                <input type="text" id="keyword" placeholder="Keyword (e.g., Developer)">
+                <select id="location">
+                    <option value="any">Any</option>
+                    <option value="remote">Remote</option>
+                    <option value="place">Place</option>
+                </select>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <!-- job postings-->
+        <section class="job-postings">
+            <div class="job">
+                <h2>Job Title 1</h2>
+                <p>Job Description 1...</p>
+            </div>
+            <div class="job">
+                <h2>Job Title 2</h2>
+                <p>Job Description 2...</p>
+            </div>
+           
+        </section>
+    </div>
+   <!--  <script> 
+    document.getElementById('loginBtn').addEventListener('click', function() {
+    window.location.href = '/api/auth/login';
+});
+
+
+</script> -->
+</body>
+</html>
